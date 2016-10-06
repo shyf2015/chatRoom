@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>聊天室</title>
+	<link rel="stylesheet" href="room.css">
+	
+</head>
+<body>
+	<div class="bigbox">
+		<div class="chat-window">
+			<ul></ul>
+		</div>
+		<div class="edit-window">
+			<form action="" id="form">
+				<textarea name="new_info" required placeholder="写下你要发的消息"></textarea>
+				<input type="submit" value="发表">
+			</form>
+		</div>
+		<div class="history">
+			<ul>
+				
+			</ul>
+		</div>
+	</div>
+<script src="http://apps.bdimg.com//libs/jquery/1.9.1/jquery.js"></script>
+<script src="js/chat.js"></script>
+<script>
+	chat();
+</script>
+</body>
+</html>
