@@ -13,7 +13,7 @@ function chat(){
 			value: 'login'
 		}];
 		$.ajax({
-			url: 'chatroom.php',
+			url: '../site/chatroom.php',
 			type: 'post',
 			dataType: 'json',
 			data:  data,
@@ -36,7 +36,7 @@ function chat(){
 			value: login_info
 		});
 		$.ajax({
-			url: "chatroom.php",
+			url: "../site/chatroom.php",
 			dataType: "json",
 			type: "post",
 			data: data,
@@ -55,7 +55,7 @@ function chat(){
 			value: 'get'
 		}];
 		$.ajax({
-			url: "chatroom.php",
+			url: "../site/chatroom.php",
 			type: 'post',
 			data: data,
 			dataType: 'json',
